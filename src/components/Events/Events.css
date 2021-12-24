@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box-container{
+    /* border: 1px solid gray; */
+    height: 800px;
+    width: 800px;
+    background-color: rgb(209, 209, 209);
+    
+}
+.event-container{
+    display: flex;
+    padding: 50px;
+}
