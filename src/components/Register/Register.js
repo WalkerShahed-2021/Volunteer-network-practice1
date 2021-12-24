@@ -21,7 +21,7 @@ const Register = () => {
                 <input  placeholder="User or email" {...register("UserName",)} />
                 <input placeholder="Date" type="date" {...register("date")} />
                 <textarea placeholder="Desicription" {...register("text")} />
-                {/* <input  placeholder="Organize books at the library." {...register("text")} /> */}
+                <input  placeholder="Organize books at the library." {...register("text")} />
                 <input className="bg-primary text-white" type="submit" />
             </form>
         </div>
